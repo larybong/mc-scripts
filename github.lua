@@ -10,7 +10,7 @@ local user = args[1]
 local repo = args[2]
 local filepath = args[3]
 -- Default to 'main' branch, but you can change this or add it as an arg
-local branch = "main" 
+local branch = "refs/heads/main"
 
 -- Construct the RAW GitHub URL
 -- We use raw.githubusercontent.com to get the text, not the HTML page
