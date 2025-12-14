@@ -35,5 +35,5 @@ if response then
     
     print("Success! Saved as " .. localFilename)
 else
-    print("Error: Could not connect or file not found.")
+    print("Error: Could not connect or file not found.\nURL: " .. url)
 end
